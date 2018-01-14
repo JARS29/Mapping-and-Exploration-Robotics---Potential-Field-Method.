@@ -14,8 +14,8 @@ Robot::Robot() {
         Aria::init();
 
         argv[0] = "-rh";
-       argv[1] = "192.168.1.11";
-       // argv[1] = "localhost";
+       //argv[1] = "192.168.1.11";  //physic robot
+        argv[1] = "localhost";    //simulator (mobilesim)
         argv[2] = "-remoteLaserTcpPort";
         argv[3] = "10002";
 
